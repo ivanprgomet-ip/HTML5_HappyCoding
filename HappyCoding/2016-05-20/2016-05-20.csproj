@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{66793775-7FB6-4258-8272-0B7CE5C99C94}</ProjectGuid>
+    <ProjectGuid>{6418CADE-9960-4FE8-A880-7454356B4D4E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_2016_05_20_LessonExample</RootNamespace>
-    <AssemblyName>2016-05-20_LessonExample</AssemblyName>
+    <RootNamespace>_2016_05_20</RootNamespace>
+    <AssemblyName>2016-05-20</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -131,9 +131,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>19612</DevelopmentServerPort>
+          <DevelopmentServerPort>21169</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:19612/</IISUrl>
+          <IISUrl>http://localhost:21169/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
