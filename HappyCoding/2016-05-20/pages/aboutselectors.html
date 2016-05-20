@@ -2,30 +2,25 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 </head>
 <body>
-    <header><h1>about selectors</h1>
-    
-    <nav>
-        <ul>
-            <li><a href="#universalselector">universal selector!</a></li>
-            <li><a href="#typeselector">type selector!</a></li>
-            <li><a href="#classselector">class selector!</a></li>
-            <li><a href="#idselector">id selector!</a></li>
-            <li><a href="#childselector">child selector!</a></li>
-            <li><a href="#descendantselector">descendant selector!</a></li>
-            <li><a href="#adjsiblingselector">adjacent sibling selector!</a></li>
-            <li><a href="#gensiblingselector">general sibling selector!</a></li>
-        </ul>
-
-        
-    </nav>
+    <header>
+        <h1>about selectors</h1>
+        <nav>
+            <ul>
+                <li><a href="#universalselector">universal selector!</a></li>
+                <li><a href="#typeselector">type selector!</a></li>
+                <li><a href="#classselector">class selector!</a></li>
+                <li><a href="#idselector">id selector!</a></li>
+                <li><a href="#childselector">child selector!</a></li>
+                <li><a href="#descendantselector">descendant selector!</a></li>
+                <li><a href="#adjsiblingselector">adjacent sibling selector!</a></li>
+                <li><a href="#gensiblingselector">general sibling selector!</a></li>
+            </ul>
+        </nav>
     </header>
-
- 
     <article id="selectordefinitions">
-
         <dl>
             <dt id="universalselector"><b>Universal Selector</b></dt>
             <dd>
@@ -40,66 +35,90 @@
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>Matches element names</dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>
+                        h1, h2, h3 {} Targets the &lt;h1&gt;, &lt;h2&gt; and &lt;h3&gt; elements
+                    </dd>
                 </dl>
             </dd>
             <dt id="classselector"><b>class Selector</b></dt>
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>
+                        Matches an element whose class attribute has a value that matches the one specified after the period (or full stop) symbol
+                    </dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>
+                        .note {} Targets any element whose class attribute has a value of note p.note {} Targets only &lt;p&gt; elements whose class attribute has a value of note
+                    </dd>
                 </dl>
             </dd>
             <dt id="idselector"><b>id Selector</b></dt>
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>
+                        Matches an element whose id attribute has a value that matches the one specified after the pound or hash symbol
+                    </dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>
+                        #introduction {} Targets the element whose id attribute has a value of introduction
+                    </dd>
                 </dl>
             </dd>
             <dt id="childselector"><b>child Selector</b></dt>
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>
+                        Matches an element that is a direct child of another
+                    </dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>
+                        li>a {} Targets any &lt;a&gt; elements that are children of an &lt;li&gt; element (but not other &lt;a&gt; elements in the page)
+                    </dd>
                 </dl>
             </dd>
             <dt id="descendantselector"><b>descendant Selector</b></dt>
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>
+                        Matches an element that is a descendent of another specified element (not just a direct child of that element)
+                    </dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>p a {} Targets any &lt;a&gt; elements that sit inside a &lt;p&gt; element, even if there are other elements nested between them</dd>
                 </dl>
             </dd>
             <dt id="adjsiblingselector"><b>adjacent sibling selector</b></dt>
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>
+                        Matches an element that is the next sibling of another
+                    </dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>
+                        h1+p {} Targets the first &lt;p&gt; element after any &lt;h1&gt; element (but not other &lt;p&gt; elements)
+                    </dd>
                 </dl>
             </dd>
             <dt id="gensiblingselector"><b>general sibling selector</b></dt>
             <dd>
                 <dl>
                     <dt><em>meaning</em></dt>
-                    <dd>Applies to all elements in the document</dd>
+                    <dd>
+                        Matches an element that is a sibling of another, although it does not have to be the directly preceding element
+                    </dd>
                     <dt><em>example</em></dt>
-                    <dd>* {} Targets all elements on the page</dd>
+                    <dd>
+                        h1~p {} If you had two &lt;p&gt; elements that are siblings of an &lt;h1&gt; element, this rule would apply to both
+                    </dd>
                 </dl>
             </dd>
-        </dl> 
+        </dl>
     </article>
 
 
