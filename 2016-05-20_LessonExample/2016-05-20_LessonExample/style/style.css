@@ -1,18 +1,27 @@
 ﻿body {
 
 }
-#movingReference{
+aside#movingReference{
     border:4px solid rgba(110, 134, 239, 0.90);
     width:150px;
     border-radius:80%/20%;
     background-color:rgba(190, 200, 245, 0.30);    
-    /*background-color:rgba(0, 0, 0, 0.11);*/    
+    
 
     position:fixed;
     left:1300px;
     top:600px;
 }
-#movingReference ul{
+aside#movingReference li{
+    list-style-type:none;
     font-family:Arial;
-    list-style:none;
+}
+aside#movingReference nav ul li{/*alla list items som beffiner sig i nav som beffiner sig i 'movingreference' som är namnet på asiden*/
+    border:1px solid black;
+    margin-right:40px;
+    padding:2px;
+}
+aside#movingReference li a{/*alla länkar (anchor tags) som ligger i list itemsen som beffiner sig i nav som beffiner sig i 'movingreference' som är namnet på asiden*/
+    text-decoration:none;/*tar bort understrecken från hyperlänkarna*/
+    color:black;
 }
