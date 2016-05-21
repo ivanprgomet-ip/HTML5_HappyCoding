@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        function DisableHome() {
+            if (oneway_id.checked)
+            {
+                homeflightdate_id.disabled = true;
+                homeflightdate_id.value = null;/*setting the homeflight date to none, because if its a one way, then theres no home flight date*/
+            }
+            else
+                homeflightdate_id.disabled = false;
+        }
+    </script>
+</head>
+<body>
+
+    <header style="background-color:#ff3399" >
+        <h1 style="color:white;font-family:Arial;">Flight Booking</h1>
+    </header>
+
+    <fieldset id="flightform">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="from_id">
+                            From:<br />
+                            <input type="text" id="from_id" name="fromlist_nm" list="fromlist_id" />
+                            <datalist id="fromlist_id">
+                                <option>stockholm</option>
+                                <option>copenhagen</option>
+                                <option>Malmo</option>
+                                <option>Arlanda</option>
+                                <option>Upsala</option>
+                            </datalist>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="to_id">
+                            To:<br />
+                            <input type="text" id="to_id" name="tolist_nm" list="tolist_id" />
+                            <datalist id="tolist_id">
+                                <option>stockholm</option>
+                                <option>copenhagen</option>
+                                <option>Malmo</option>
+                                <option>Arlanda</option>
+                                <option>Upsala</option>
+                            </datalist>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="amount_grown_id">
+                            Grown-ups:<br />
+                            <select name="amount_grown" id="amount_grown_id">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="amount_kids_id">
+                            Children:<br />
+                            <select name="amount_kids" id="amount_kids_id">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="flightdate_id">
+                            Flightdate:<br />
+                            <input type="date" id="flightdate_id" name="flightdate_nm" />
+                        </label>
+                    </td>
+                    <td>
+                        <label for="homeflightdate_id">
+                            Home:<br />
+                            <input type="date" id="homeflightdate_id" name="homeflightdate_nm" />
+                        </label>
+                    </td>
+                    <td>
+                        <label for="flightclass_id">
+                            Search On Class:<br />
+                            <select id="flightclass_id" name="flightclass_nm">
+                                <option>All Classes</option>
+                                <option>Economy</option>
+                                <option>Premium Economy</option>
+                                <option>Business</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Flightcompany/Aliances:<br />
+                            <select>
+                                <optgroup label="Aliances">
+                                    <option>aliance1</option>
+                                    <option>aliance2</option>
+                                    <option>aliance3</option>
+                                </optgroup>
+                                <optgroup label="Flight Companies">
+                                    <option>company1</option>
+                                    <option>company2</option>
+                                    <option>company3</option>
+                                    <option>company4</option>
+                                    <option>company5</option>
+                                    <option>company6</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="oneway_id">
+                        <input type="checkbox" id="oneway_id" onclick="DisableHome();"/>
+                        Onewyay</label>
+                    </td>
+                    <td>
+                        <label for="otherhomewaytrip_id">
+                        <input type="checkbox" id="otherhomewaytrip_id" />
+                        Hometrip from another destination</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="directflight_id">
+                        <input type="checkbox" id="directflight_id" />
+                        Direct Flight</label>
+                    </td>
+                    <td>
+                        <label for="flexible_id">
+                        <input type="checkbox" id="flexible_id" />
+                        Search Flexible</label>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Search Ticket" />
+        </form>
+    </fieldset>
+</body>
+</html>
