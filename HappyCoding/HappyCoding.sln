@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-05-26_bootstrap", "201
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-05-31_cardflipping", "2016-05-31_cardflipping\2016-05-31_cardflipping.csproj", "{3230C192-0DC6-41AD-9DCC-4BED88DABB8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-06-01_canvas", "2016-06-01_canvas\2016-06-01_canvas.csproj", "{4374FB9B-85B6-49AF-A92A-89893482F434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3230C192-0DC6-41AD-9DCC-4BED88DABB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3230C192-0DC6-41AD-9DCC-4BED88DABB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3230C192-0DC6-41AD-9DCC-4BED88DABB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4374FB9B-85B6-49AF-A92A-89893482F434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4374FB9B-85B6-49AF-A92A-89893482F434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4374FB9B-85B6-49AF-A92A-89893482F434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4374FB9B-85B6-49AF-A92A-89893482F434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

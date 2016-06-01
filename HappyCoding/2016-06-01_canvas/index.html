@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        canvas{
+            width:600px;
+            height:600px;
+            border:2px solid gold;
+        }
+    </style>
+    <!--see content delivery network (cdn)-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script><!--now we can also use jquery-->
+    <script src="scripts/drawcanvas.js"></script><!--we are using some javascript-->
+    
+    <script>
+    // Fallback to loading jQuery from a local path if the CDN is unavailable
+        (window.jQuery || document.write('<script src="/scripts/jquery-2.2.3.min.js"><\/script>'));/*i had to change to the version that i downloaded vuia nuget*/
+        //source: http://www.asp.net/ajax/cdn
+    </script>
+    
+    <!--tip: jquery is like bootstrap to css, but to javascript-->
+</head>
+<body>
+    <canvas width="600" height="600" id="myform"><!--id so that i can easyly connect to javascript-->
+        Update your browser to support html5!
+    </canvas>
+</body>
+</html>
