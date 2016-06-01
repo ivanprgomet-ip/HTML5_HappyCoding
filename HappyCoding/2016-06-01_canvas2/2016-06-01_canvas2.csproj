@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4374FB9B-85B6-49AF-A92A-89893482F434}</ProjectGuid>
+    <ProjectGuid>{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_2016_06_01_canvas</RootNamespace>
-    <AssemblyName>2016-06-01_canvas</AssemblyName>
+    <RootNamespace>_2016_06_01_canvas2</RootNamespace>
+    <AssemblyName>2016-06-01_canvas2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -110,8 +110,8 @@
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="scripts\drawcanvas.js" />
     <None Include="scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="scripts\drawing.js" />
     <Content Include="scripts\jquery-2.2.3.js" />
     <Content Include="scripts\jquery-2.2.3.min.js" />
     <Content Include="Web.config" />
@@ -132,9 +132,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>30113</DevelopmentServerPort>
+          <DevelopmentServerPort>30881</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:30113/</IISUrl>
+          <IISUrl>http://localhost:30881/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

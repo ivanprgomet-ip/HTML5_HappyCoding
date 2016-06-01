@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-05-31_cardflipping", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-06-01_canvas", "2016-06-01_canvas\2016-06-01_canvas.csproj", "{4374FB9B-85B6-49AF-A92A-89893482F434}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-06-01_canvas2", "2016-06-01_canvas2\2016-06-01_canvas2.csproj", "{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4374FB9B-85B6-49AF-A92A-89893482F434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4374FB9B-85B6-49AF-A92A-89893482F434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4374FB9B-85B6-49AF-A92A-89893482F434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
