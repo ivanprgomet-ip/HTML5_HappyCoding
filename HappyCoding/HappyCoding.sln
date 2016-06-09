@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-06-01_canvas", "2016-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2016-06-01_canvas2", "2016-06-01_canvas2\2016-06-01_canvas2.csproj", "{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingHTMLforms_01_assigningvalues", "ProcessingHTMLforms_01_assigningvalues\ProcessingHTMLforms_01_assigningvalues.csproj", "{21287021-67D0-4DFD-B5DB-539EF94AB580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B952EC22-7574-4DB2-8E82-B7527BCFA7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21287021-67D0-4DFD-B5DB-539EF94AB580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21287021-67D0-4DFD-B5DB-539EF94AB580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21287021-67D0-4DFD-B5DB-539EF94AB580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21287021-67D0-4DFD-B5DB-539EF94AB580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
