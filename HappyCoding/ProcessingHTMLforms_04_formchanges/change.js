@@ -20,10 +20,9 @@ function init() {
     var form = document.getElementById("lang");
 
 
-    /*attaching event hanlder functions to the form object 
-    and textfield object*/
+    /*attaching event hanlder functions to the form object and textfield object*/
     form.onreset = wipe;
-    field.onchange = update;
+    field.onchange = update;/*event handler gets nominated to the onchange property of the 'field' object to respond to changes in its content. interestingly the change event is not fired until the text element loses focus*/
     wipe();
 }
 /*Execute a JavaScript immediately after a page has been loaded*/
