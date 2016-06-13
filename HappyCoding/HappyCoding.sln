@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingHTMLforms_04_form
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingHTMLforms_05_submitting", "ProcessingHTMLforms_05_submitting\ProcessingHTMLforms_05_submitting.csproj", "{15B483B4-5D05-4E87-BC63-FCF772AB4A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDynamicEffects", "CreatingDynamicEffects\CreatingDynamicEffects.csproj", "{816FA9FF-45B9-4C05-9256-117FBDEA1E22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{15B483B4-5D05-4E87-BC63-FCF772AB4A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B483B4-5D05-4E87-BC63-FCF772AB4A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B483B4-5D05-4E87-BC63-FCF772AB4A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816FA9FF-45B9-4C05-9256-117FBDEA1E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816FA9FF-45B9-4C05-9256-117FBDEA1E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816FA9FF-45B9-4C05-9256-117FBDEA1E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816FA9FF-45B9-4C05-9256-117FBDEA1E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
