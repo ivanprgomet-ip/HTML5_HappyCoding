@@ -110,6 +110,8 @@
     <Content Include="rollover.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="toggle.html" />
+    <Content Include="toggle.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
