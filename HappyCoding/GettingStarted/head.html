@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script>
+        function init() {
+            document.getElementById("panel").innerHTML = "hello from the head section javascript block";
+
+            window.alert("document loaded");
+        }
+    </script>
+</head>
+<body onload="init()">
+    <div id="panel">
+        <noscript>
+            <!--just in case user doesnt use javascript-->
+            javascript is not enabled
+        </noscript>
+    </div>
+</body>
+</html>
