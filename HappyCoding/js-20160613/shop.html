@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="scripts/buy.js" type="text/javascript"></script>
+</head>
+<body>
+    <a href="checkout.html">Go To Checkout</a>
+    <div id="displayer"></div>
+    <div id="products">
+        <fieldset id="one">
+            <legend>nike flex run 2015</legend>
+            <form >
+                
+                <img src="shoes/N1241A0E9-A11@12.jpg" />
+                <p>this is a nice product byu it</p>
+                <h3>120000 SEK</h3>
+                <input type="number" min="1" max="99" value="1" required />
+                <!--using input type button rather than button because printing the msg in the displayer div
+                doesnt work correctly when using the button element, but works with the input type button-->
+                <input type="button" onclick="addToCart('one')" value="Add to Bag" />
+            </form>
+        </fieldset>
+        <fieldset id="two">
+            <legend>nike flexi bexi 220</legend>
+            <form>
+                <img src="shoes/N1241A0EX-J11@12.jpg" />
+                <p>this is a nice product byu it</p>
+                <h3>150000 SEK</h3>
+                <input type="number" min="1" max="99" value="1" required />
+                <input type="button" onclick="addToCart('two')" value="Add to Bag" />
+            </form>
+        </fieldset>
+        <fieldset id="three">
+            <legend>nike hurricane</legend>
+            <form>
+                <img src="shoes/N1241A0F7-Q11@12.jpg" />
+                <p>this is a nice product byu it</p>
+                <h3>89000 SEK</h3>
+                <input type="number" min="1" max="99" value="1" required />
+                <input type="button" onclick="addToCart('three')" value="Add to Bag" />
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
