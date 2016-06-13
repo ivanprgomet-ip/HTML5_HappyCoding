@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F1E0D615-2D78-47DA-99AD-C867185CE2A6}</ProjectGuid>
+    <ProjectGuid>{1DC198D5-E20E-40FC-8ACC-7DAFFB491D0E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>js_20160613</RootNamespace>
-    <AssemblyName>js-20160613</AssemblyName>
+    <RootNamespace>PerformingOperations</RootNamespace>
+    <AssemblyName>PerformingOperations</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,7 +94,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="checkout.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -107,16 +106,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="reciept.html" />
+    <Content Include="arithmetic.html" />
+    <Content Include="arithmetic.js" />
+    <Content Include="assign.html" />
+    <Content Include="assign.js" />
+    <Content Include="condition.html" />
+    <Content Include="condition.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="scripts\js.js" />
-    <Content Include="scripts\buy.js" />
-    <Content Include="shoes\N1241A0E9-A11%4012.jpg" />
-    <Content Include="shoes\N1241A0EX-J11%4012.jpg" />
-    <Content Include="shoes\N1241A0F7-Q11%4012.jpg" />
-    <Content Include="shop.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -135,9 +132,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>25945</DevelopmentServerPort>
+          <DevelopmentServerPort>30220</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:25945/</IISUrl>
+          <IISUrl>http://localhost:30220/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
