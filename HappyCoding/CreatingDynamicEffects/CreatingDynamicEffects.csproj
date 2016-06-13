@@ -106,10 +106,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\56315_beach_tropical_paradise_beach.jpg" />
+    <Content Include="images\mMEd3ZS.jpg" />
+    <Content Include="images\tropical-paradise-4-wallpaper-1080p-HD.jpg" />
     <Content Include="rollover.html" />
     <Content Include="rollover.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="slideshow.html" />
+    <Content Include="slideshow.js" />
     <Content Include="toggle.html" />
     <Content Include="toggle.js" />
     <Content Include="Web.config" />
