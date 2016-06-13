@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDynamicEffects", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{D8464F6F-3870-465A-B269-F36DBFB1E568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "js-20160613", "js-20160613\js-20160613.csproj", "{F1E0D615-2D78-47DA-99AD-C867185CE2A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D8464F6F-3870-465A-B269-F36DBFB1E568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8464F6F-3870-465A-B269-F36DBFB1E568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8464F6F-3870-465A-B269-F36DBFB1E568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E0D615-2D78-47DA-99AD-C867185CE2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E0D615-2D78-47DA-99AD-C867185CE2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E0D615-2D78-47DA-99AD-C867185CE2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E0D615-2D78-47DA-99AD-C867185CE2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
