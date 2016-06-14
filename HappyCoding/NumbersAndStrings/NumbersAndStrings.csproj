@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="4794101_102_z.jpg" />
+    <Content Include="demo.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -107,11 +109,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pages\constants.html" />
+    <Content Include="pages\float.html" />
     <Content Include="pages\math.html" />
+    <Content Include="pages\parse.html" />
+    <Content Include="pages\random.html" />
+    <Content Include="pages\search.html" />
+    <Content Include="pages\string.html" />
+    <Content Include="pages\substring.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="scripts\constants.js" />
+    <Content Include="scripts\float.js" />
     <Content Include="scripts\math.js" />
+    <Content Include="scripts\parse.js" />
+    <Content Include="scripts\random.js" />
+    <Content Include="scripts\search.js" />
+    <Content Include="scripts\string.js" />
+    <Content Include="scripts\substring.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
