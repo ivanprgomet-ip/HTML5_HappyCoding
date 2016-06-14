@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersAndStrings", "Number
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferencingTheWindowObject", "ReferencingTheWindowObject\ReferencingTheWindowObject.csproj", "{C012C09E-127F-40B5-AA09-F8AD4E76BE47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractingWithTheDocument", "InteractingWithTheDocument\InteractingWithTheDocument.csproj", "{88B462B5-CF8F-4CBC-B1C9-DD9CF40B7E27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C012C09E-127F-40B5-AA09-F8AD4E76BE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C012C09E-127F-40B5-AA09-F8AD4E76BE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C012C09E-127F-40B5-AA09-F8AD4E76BE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B462B5-CF8F-4CBC-B1C9-DD9CF40B7E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B462B5-CF8F-4CBC-B1C9-DD9CF40B7E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B462B5-CF8F-4CBC-B1C9-DD9CF40B7E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B462B5-CF8F-4CBC-B1C9-DD9CF40B7E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
