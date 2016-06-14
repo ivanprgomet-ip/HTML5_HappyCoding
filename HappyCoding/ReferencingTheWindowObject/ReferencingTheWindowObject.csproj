@@ -114,6 +114,12 @@
     <Content Include="dom.js" />
     <Content Include="enabled.html" />
     <Content Include="enabled.js" />
+    <Content Include="history\history-1.html" />
+    <Content Include="history\history-2.html" />
+    <Content Include="history\history-3.html" />
+    <Content Include="history\history.js" />
+    <Content Include="location.html" />
+    <Content Include="location.js" />
     <Content Include="popup\pop.html" />
     <Content Include="popup\popup.html" />
     <Content Include="popup\popup.js" />
