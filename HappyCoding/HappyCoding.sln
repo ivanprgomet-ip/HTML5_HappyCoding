@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingHTMLForms", "Proc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDynamicEffects02", "CreatingDynamicEffects02\CreatingDynamicEffects02.csproj", "{E1E7286E-9E1D-4B70-AD16-560AB12BF5CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducingWebApplications", "ProducingWebApplications\ProducingWebApplications.csproj", "{1C6E4D51-2ECB-4C74-8834-F17B1500C5DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "h9_ScriptingWithTheDOM", "h9_ScriptingWithTheDOM\h9_ScriptingWithTheDOM.csproj", "{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{E1E7286E-9E1D-4B70-AD16-560AB12BF5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1E7286E-9E1D-4B70-AD16-560AB12BF5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1E7286E-9E1D-4B70-AD16-560AB12BF5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6E4D51-2ECB-4C74-8834-F17B1500C5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6E4D51-2ECB-4C74-8834-F17B1500C5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6E4D51-2ECB-4C74-8834-F17B1500C5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6E4D51-2ECB-4C74-8834-F17B1500C5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
