@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script>
+        var context;
+        var x = 50;
+        var y = 50;
+        var counter = 0;
+
+        function paint() {
+            context.beginPath();
+            context.fillstyle = '#ff0000';
+            context.arc(x, y, 15, 0, Math.PI * 2, false);
+            context.closePath();
+            context.fill();
+        }
+        function animate() {
+            context.clearRect(0, 0, 400, 300);
+            counter++;
+            x += 20 * Math.sin(counter);
+            y += 20 * Math.cos(counter);
+            paint();
+        }
+
+        window.onload = function () {
+            context = canvas1.getContext('2d');
+            setInterval(animate, 100);
+        }
+    </script>
+</head>
+<body>
+    <canvas id="canvas1" width="400" height="300" >
+       <p>your browser doesnt support the canvas elemtn</p>
+    </canvas>
+</body>
+</html>

@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducingWebApplications", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "h9_ScriptingWithTheDOM", "h9_ScriptingWithTheDOM\h9_ScriptingWithTheDOM.csproj", "{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "canvas", "canvas\canvas.csproj", "{CC5E488E-003A-4BEC-83F8-C8D96670B145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57359AEB-C5EF-4AC1-8CB8-0BE6EA03A481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5E488E-003A-4BEC-83F8-C8D96670B145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5E488E-003A-4BEC-83F8-C8D96670B145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5E488E-003A-4BEC-83F8-C8D96670B145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5E488E-003A-4BEC-83F8-C8D96670B145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

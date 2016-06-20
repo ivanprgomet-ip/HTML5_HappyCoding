@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body class="menu">
+        <header>
+            <a href="#" class="toggle">Menu</a>
+            <nav class="menu-side">
+                some item
+            </nav>
+        </header>
+        <p>
+            Tousled crucifix post-ironic, beard cray brunch four loko four dollar toast health goth franzen listicle. Blog stumptown banjo, vegan schlitz distillery XOXO shoreditch leggings listicle gastropub marfa. Retro raw denim 90's brunch selfies pour-over wayfarers lomo +1. Ethical try-hard irony etsy. Literally selfies stumptown fanny pack fixie, try-hard hammock cray beard readymade pabst. Small batch messenger bag hella street art dreamcatcher. Flannel kinfolk mustache normcore affogato marfa narwhal, post-ironic biodiesel shabby chic gochujang portland XOXO everyday carry.
+        </p>
+        <p>
+            Semiotics poutine paleo, DIY skateboard squid actually. Next level pinterest pork belly shabby chic, wayfarers viral schlitz. Meditation sustainable single-origin coffee cliche godard pinterest small batch venmo, kinfolk polaroid offal. Gluten-free direct trade typewriter hella, ramps kickstarter irony meh +1 90's selfies. Put a bird on it dreamcatcher master cleanse chambray keytar, irony fashion axe direct trade aesthetic. Wayfarers drinking vinegar 8-bit VHS next level truffaut sriracha blog helvetica. Austin four dollar toast mustache, crucifix deep v tousled squid cold-pressed cornhole PBR&B.
+        </p>
+        <p>
+            Vice heirloom next level yuccie. Knausgaard kinfolk squid paleo. Man braid XOXO kale chips, humblebrag you probably haven't heard of them cronut sartorial. Authentic fingerstache pinterest, godard XOXO sustainable messenger bag knausgaard swag pug 8-bit YOLO flannel seitan biodiesel. Etsy paleo YOLO cold-pressed salvia helvetica. Neutra pork belly semiotics freegan man bun. Lomo humblebrag yr, wayfarers quinoa actually art party.
+
+        </p>
+        <p>
+            Celiac pour-over tofu helvetica, art party ugh before they sold out meh literally yr hoodie gastropub normcore forage. Deep v dreamcatcher raw denim small batch, put a bird on it kale chips retro cray. Actually poutine godard listicle seitan. Fap health goth four loko, you probably haven't heard of them pork belly tumblr sustainable jean shorts. Poutine next level seitan cliche hashtag cardigan green juice, knausgaard vegan polaroid salvia messenger bag deep v drinking vinegar. Occupy sartorial next level, plaid microdosing organic asymmetrical thundercats 3 wolf moon raw denim neutra try-hard lumbersexual cred bushwick. Pour-over lumbersexual art party, narwhal street art taxidermy vegan humblebrag meggings retro viral you probably haven't heard of them blue bottle sustainable
+        </p>
+    <!--jquery for adding class when clicked--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        (function () {
+            var body = $('body');/*same as getelementbyid('menu')*/
+            $('.toggle').bind('click', function () {
+                body.toggleClass('menu-open');
+                return false;
+                /*returning false: This will stop the page jumping up to the top, since the href attribute is set to a hash.﻿*/
+            });
+        })();
+    </script>
+</body>
+</html>

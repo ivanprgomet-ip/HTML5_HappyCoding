@@ -1,0 +1,34 @@
+﻿.menu{
+    overflow-x:hidden;
+    position:relative;
+    left:0;
+    
+}
+.menu-open{
+    left:231px;
+}
+.menu-open .menu-side{
+    /*descendant selector
+        so when the menu is open,
+        then the menu side will have 
+        left:0 and which successfully makes 
+        it visible
+    */
+    left:0;
+    
+}
+
+
+
+.menu-side{
+    color:#fff;
+    background-color:#333;
+    border-right:1px solid #000;
+
+    position:fixed;
+    top:0;
+    left: -231px;/*will push it out exactly so its not visible to the right*/
+    width:210px;
+    height:100%;
+    padding:10px;/*now has total width of 231px due to width210 +padding10+10 +border+1*/
+}
