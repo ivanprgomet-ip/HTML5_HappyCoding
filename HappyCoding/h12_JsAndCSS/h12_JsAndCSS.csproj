@@ -110,8 +110,12 @@
     <Content Include="classname.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="selectstylesheet.html" />
+    <Content Include="selectstylesheet.js" />
     <Content Include="setstyle.html" />
     <Content Include="setstyle.js" />
+    <Content Include="stylesheet.html" />
+    <Content Include="stylesheet.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

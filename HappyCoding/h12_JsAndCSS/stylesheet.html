@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>swithcing stylesheets with javascript</title>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-color: white;
+            color: red;
+            font: normal 24px arial,helvetica, sans-serif;
+            padding: 20px;
+        }
+    </style>
+    <style>
+        body {
+            background-color: black;
+            color: yellow;
+            font: italic bold 24px 'times new roman', serif;
+            padding: 20px;
+        }
+    </style>
+    <script src="stylesheet.js"></script><!--has to be placed after the styles so that they dont are undefined at the time the script runs-->
+</head>
+<body>
+    switch my styelsheet with the buton below<br />
+    <input type="button" id="btn1" value="Toggle" />
+</body>
+</html>
