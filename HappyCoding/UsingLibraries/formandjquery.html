@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>prototype js. example</title>
+	<meta charset="utf-8" />
+    <script src="scripts/prototype.js"></script>
+    <script src="formandjquery.js"></script>
+    <script>
+        function showselect() {
+            alert('You have choosen option ' + $F('selectinput'));
+        }
+    </script>
+</head>
+<body>
+    <form id="exampleForm" action="#" onsubmit="return false">
+        username:<input type="text" name="username" /><br />
+        telephone:<input type="text" name="telephone" /><br />
+        message: <input type="text" name="message" /><br />
+    </form>
+    <form id="demoform">
+        enter some:
+        <select id="selectinput">
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+        </select>
+        <input type="button" value="what did i enter" onclick="showselect()" />
+    </form>
+    <input type="button" value="result" onclick="showFormFields()" />
+</body>
+</html>
