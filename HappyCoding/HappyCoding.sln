@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "canvas", "canvas\canvas.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "h12_JsAndCSS", "h12_JsAndCSS\h12_JsAndCSS.csproj", "{31F90A42-017A-4E01-8A1A-D93D831A0967}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lightningefx", "lightningefx\lightningefx.csproj", "{57ED1A7E-8864-4892-9A48-F28ACF0A2603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{31F90A42-017A-4E01-8A1A-D93D831A0967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F90A42-017A-4E01-8A1A-D93D831A0967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F90A42-017A-4E01-8A1A-D93D831A0967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ED1A7E-8864-4892-9A48-F28ACF0A2603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ED1A7E-8864-4892-9A48-F28ACF0A2603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ED1A7E-8864-4892-9A48-F28ACF0A2603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ED1A7E-8864-4892-9A48-F28ACF0A2603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
