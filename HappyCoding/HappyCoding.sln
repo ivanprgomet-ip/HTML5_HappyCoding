@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lightningefx", "lightningef
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingLibraries", "UsingLibraries\UsingLibraries.csproj", "{38439D3B-F8F2-4216-810F-59E7624A04AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jqueryUI", "jqueryUI\jqueryUI.csproj", "{171C93EF-334E-4703-A3D3-7C0C544D82BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{38439D3B-F8F2-4216-810F-59E7624A04AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38439D3B-F8F2-4216-810F-59E7624A04AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38439D3B-F8F2-4216-810F-59E7624A04AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171C93EF-334E-4703-A3D3-7C0C544D82BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171C93EF-334E-4703-A3D3-7C0C544D82BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171C93EF-334E-4703-A3D3-7C0C544D82BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171C93EF-334E-4703-A3D3-7C0C544D82BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

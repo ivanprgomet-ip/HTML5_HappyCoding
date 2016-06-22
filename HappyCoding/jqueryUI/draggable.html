@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <!--theme-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <!--jquery-->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!--jquery UI-->
+    <script src="http://codeorigin.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+    
+    <style>
+        #dragdiv{
+            width:150px;
+            height:50px;
+            background-color:#eeffee;
+            border: 1px solid black;
+            padding:5px;
+        }
+        #dropdiv{
+            position:absolute;
+            top:100px;
+            left:100px;
+            padding:5px;
+            width:300px;
+            height:200px;
+            border:1px solid black;
+        }
+    </style>
+    <script>
+        //when the page has loaded , the element div is made dragable
+        /*start: function while the div element is beeing dragged
+        drop: function being run in response to the div element being dropped
+        out:function when div leaves the droppable area*/
+        $(function () {
+            $('#dragdiv').draggable({
+                start:function () { $('#dragdiv').text('moving...!') }
+            });
+            $('#dropdiv').droppable({
+                drop: function () { $('#dragdiv').text('dropped!') },
+                out: function () { $('#dragdiv').text('IM FREE AGAIN!') }
+            }).resizable();
+            //chaining the resizable function to the #dropdiv
+        });
+    </script>
+</head>
+<body>
+    <div id="dragdiv">drag this element around the page!</div>
+    <div id="dropdiv">this is the drop zone...</div>
+   
+
+</body>
+</html>
